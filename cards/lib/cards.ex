@@ -1,5 +1,10 @@
 # iex -S mix
 
+# colors = [{:primary, "red"}, {:secondary, "green"}] or [primary: "Red", primary: "Blue"]  This is a keyword list
+# colors = %{primary: "red", secondary: "green"}   This is a map
+# colors = ["red", "green"]   This is a list
+# colors = {"red", "green"}   This is a tuple
+
 defmodule Cards do
   @moduledoc """
     Provides methods for creating and handling a deck of cards
